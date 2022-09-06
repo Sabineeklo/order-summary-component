@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  font-family: "Red Hat Display", sans-serif;
+  color: #717fa6;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer {
+  font-size: 12px;
+}
+footer .name,
+footer a {
+  color: #382ae1;
+}
+
+.container {
+  width: 450px;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.2);
+}
+.container h2,
+.container h4 {
+  color: #1f2e55;
+}
+.container .img-container img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container .text-container {
+  margin: 10px 48px;
+  font-size: 16px;
+}
+.container .text-container .description {
+  line-height: 26px;
+}
+.container .text-container .plan-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  background: #f7f9ff;
+  border-radius: 10px;
+  margin-bottom: 32px;
+}
+.container .text-container .plan-container .details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container .text-container .plan-container .details img {
+  margin-right: 20px;
+  margin-left: 24px;
+}
+.container .text-container .plan-container .change {
+  color: #382ae1;
+  text-decoration: underline;
+  margin-right: 24px;
+}
+.container .text-container .plan-container .change:hover {
+  color: rgb(118, 108, 241);
+  text-decoration: none;
+}
+.container .text-container .proceed-btn {
+  background: #382ae1;
+  padding: 15px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 32px;
+  font-size: 15px;
+  font-weight: 900;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+}
+.container .text-container .proceed-btn:hover {
+  background: rgb(118, 108, 241);
+}
+.container .text-container .cancel-btn {
+  font-size: 15px;
+  font-weight: 900;
+}
+.container .text-container .cancel-btn:hover {
+  color: rgb(31, 46, 85);
+}/*# sourceMappingURL=styles.css.map */
